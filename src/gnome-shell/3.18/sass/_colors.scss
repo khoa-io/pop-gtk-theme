@@ -61,8 +61,8 @@ $semi_fill_color: gtkalpha(currentColor, $lower_opacity / 2);
 $row_fill_color:  gtkalpha(currentColor, 0.05);
 
 // Misc colors
-$primary_color:         $red_500;
-$alt_primary_color:     $red_300;
+$primary_color:         $blue_500;
+$alt_primary_color:     $blue_300;
 $accent_color:          $red_A200;
 $disabled_accent_color: rgba($accent_color, 0.5);
 
