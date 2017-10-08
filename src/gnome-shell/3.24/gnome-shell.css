@@ -75,7 +75,7 @@ stage {
 
 .button:focus {
   color: rgba(87, 79, 74, 0.87);
-  background-color: rgba(250, 164, 26, 0.3);
+  background-color: rgba(241, 34, 34, 0.3);
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
@@ -125,7 +125,7 @@ stage {
 
 .modal-dialog-linked-button:focus {
   color: rgba(87, 79, 74, 0.87);
-  background-color: rgba(250, 164, 26, 0.3);
+  background-color: rgba(241, 34, 34, 0.3);
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
@@ -163,7 +163,7 @@ StEntry {
 
 StEntry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #faa41a;
+  box-shadow: inset 0 -2px #f12222;
 }
 
 StEntry:insensitive {
@@ -284,11 +284,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .check-box:hover:checked StBin {
-  background-color: rgba(250, 164, 26, 0.15);
+  background-color: rgba(241, 34, 34, 0.15);
 }
 
 .check-box:active:checked StBin {
-  background-color: rgba(250, 164, 26, 0.3);
+  background-color: rgba(241, 34, 34, 0.3);
 }
 
 /* Switches */
@@ -317,17 +317,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 /* links */
 .shell-link {
   border-radius: 4px;
-  color: #faa41a;
+  color: #f12222;
 }
 
 .shell-link:hover {
-  color: #faa41a;
-  background-color: rgba(250, 164, 26, 0.15);
+  color: #f12222;
+  background-color: rgba(241, 34, 34, 0.15);
 }
 
 .shell-link:active {
-  color: #faa41a;
-  background-color: rgba(250, 164, 26, 0.3);
+  color: #f12222;
+  background-color: rgba(241, 34, 34, 0.3);
 }
 
 /* Modal Dialogs */
@@ -579,7 +579,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .prompt-dialog-error-label {
   font-size: 1em;
-  color: #431604;
+  color: #430404;
   padding-bottom: 8px;
 }
 
@@ -750,19 +750,19 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu .popup-menu-item:checked {
-  background-color: #f59905;
+  background-color: #eb0f0f;
   color: #FFFFFF;
   box-shadow: 0 0 transparent;
   font-weight: normal;
 }
 
 .popup-menu .popup-menu-item:checked.selected {
-  background-color: #f7a82b;
+  background-color: #ee3333;
   color: #FFFFFF;
 }
 
 .popup-menu .popup-menu-item:checked:active {
-  background-color: #f8b850;
+  background-color: #f15757;
   color: #FFFFFF !important;
 }
 
@@ -1028,7 +1028,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
-  -panel-corner-border-color: #faa41a;
+  -panel-corner-border-color: #f12222;
 }
 
 #panel .panel-corner.lock-screen, #panel .panel-corner.login-screen, #panel .panel-corner.unlock-screen {
@@ -1057,7 +1057,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
   background-color: rgba(245, 245, 245, 0.01);
-  box-shadow: inset 0 -2px 0px #faa41a;
+  box-shadow: inset 0 -2px 0px #f12222;
   color: #FFFFFF;
 }
 
@@ -1267,7 +1267,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day-base:active, .calendar-day-base:selected {
   color: #FFFFFF;
-  background-color: #faa41a !important;
+  background-color: #f12222 !important;
   border-color: transparent;
 }
 
@@ -1721,7 +1721,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .search-entry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #faa41a;
+  box-shadow: inset 0 -2px #f12222;
   padding: 0 8px;
   border-width: 0;
   color: #FFFFFF;
@@ -2047,7 +2047,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .workspace-thumbnail-indicator {
-  border: 0 solid #faa41a;
+  border: 0 solid #f12222;
   border-left-width: 2px;
   border-right-width: 2px;
   padding: 12px;
@@ -2074,7 +2074,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* NOTIFICATIONS & MESSAGE TRAY */
 .url-highlighter {
-  link-color: #faa41a;
+  link-color: #f12222;
 }
 
 .notification-banner {
@@ -2504,7 +2504,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .login-dialog StEntry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #faa41a;
+  box-shadow: inset 0 -2px #f12222;
 }
 
 .login-dialog StEntry:insensitive {
@@ -2604,7 +2604,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .login-dialog-message-warning {
-  color: #431604;
+  color: #430404;
 }
 
 .login-dialog-message-hint {
@@ -2878,7 +2878,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-bottom-width: 0;
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.01);
-  box-shadow: inset 0 -2px 0px #faa41a;
+  box-shadow: inset 0 -2px 0px #f12222;
   color: rgba(255, 255, 255, 0.87);
   text-shadow: none;
 }
@@ -2898,11 +2898,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .lg-dialog .shell-link {
-  color: #faa41a;
+  color: #f12222;
 }
 
 .lg-dialog .shell-link:hover {
-  color: #faa41a;
+  color: #f12222;
 }
 
 .lg-completions-text {
@@ -2958,7 +2958,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .lg-obj-inspector-button:focus {
   color: rgba(87, 79, 74, 0.87);
-  background-color: rgba(250, 164, 26, 0.3);
+  background-color: rgba(241, 34, 34, 0.3);
   text-shadow: none;
   icon-shadow: none;
   box-shadow: 0 0 transparent;
@@ -3215,7 +3215,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .popup-menu .search-entry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #faa41a;
+  box-shadow: inset 0 -2px #f12222;
   color: rgba(87, 79, 74, 0.87);
 }
 
