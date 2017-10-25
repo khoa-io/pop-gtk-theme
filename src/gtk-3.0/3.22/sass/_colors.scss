@@ -23,6 +23,7 @@ $disabled_fg_color:           if($variant == 'light', rgba($brown_700, 0.38), rg
 $disabled_secondary_fg_color: if($variant == 'light', rgba($brown_700, 0.26), rgba($white, 0.3));
 $track_color:                 if($variant == 'light', rgba($brown_900, 0.26), rgba($white, 0.3));
 $divider_color:               if($variant == 'light', rgba($brown_700, 0.12), rgba($white, 0.12));
+$scrollbar_color:             if($variant == 'light', rgba($brown_800, 0.87), rgba($white, 0.7));
 
 $titlebar_fg_color:                    if($titlebar == 'light', rgba($brown_700, 0.87), $white);
 $titlebar_secondary_fg_color:          if($titlebar == 'light', rgba($brown_700, 0.54), rgba($white, 0.6));
@@ -51,12 +52,10 @@ $titlebar_bg_color:          if($titlebar == 'dark',
                                 if($variant == 'light',
                                    $brown_700,
                                    lighten($brown_800, 5%)),
-                                $brown_300);
-$inactive_titlebar_bg_color: if($titlebar == 'dark',
-                                if($variant == 'light',
-                                   $brown_800,
-                                   lighten($brown_900, 5%)),
                                 $brown_400);
+$inactive_titlebar_bg_color: if($titlebar == 'dark',
+                                mix($titlebar_bg_color, $brown_400, 90%),
+                                mix($titlebar_bg_color, $black, 90%));
 $alt_titlebar_bg_color:      if($titlebar == 'dark',
                                 $brown_800,
                                 mix($brown_300, $brown_400, 50%));
@@ -102,6 +101,8 @@ $unity_highlight_color:    if($titlebar == 'dark', rgba($white, 0.1),  rgba($whi
 $alt_highlight_color:      rgba($white, 0.2);
 $titlebar_indicator_color: if($titlebar == 'dark', $accent_color, $accent_color);
 
+// FIXME: gtk's @placeholder_text_color API really should use $secondary_fg_color,
+// but it doesn't work with translucent colors. So we use opaque colors instead.
 $placeholder_text_color: if($variant == 'light',
                             mix($black, $base_color, percentage(0.54)),
                             mix($white, $base_color, percentage(0.7)));

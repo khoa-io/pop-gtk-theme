@@ -1,3 +1,54 @@
+pop-gtk-theme (2.2.2.1) artful; urgency=medium
+
+  * Fix inactive titlebars.
+
+ -- Ian Santopietro <ian@system76.com>  Thu, 19 Oct 2017 10:44:34 -0600
+
+pop-gtk-theme (2.2.2.0) artful; urgency=medium
+
+  * Titlebars and header bars can now be inactive.
+
+ -- Ian Santopietro <ian@system76.com>  Wed, 18 Oct 2017 12:19:52 -0600
+
+pop-gtk-theme (2.2.1.1) artful; urgency=medium
+
+  * Fix color-changing GNOME Shell menu popups.
+  * Fix missing padding in non CSD apps in Wayland.
+
+ -- Ian Santopietro <ian@system76.com>  Wed, 18 Oct 2017 11:20:57 -0600
+
+pop-gtk-theme (2.2.1.0) artful; urgency=medium
+
+  * Improve look of GNOME Shell App Folders.
+
+ -- Ian Santopietro <ian@system76.com>  Tue, 17 Oct 2017 10:04:28 -0600
+
+pop-gtk-theme (2.2.0.1) artful; urgency=medium
+
+  * Make App Folder backgrounds translucent.
+
+ -- Ian Santopietro <ian@system76.com>  Mon, 16 Oct 2017 17:10:11 -0600
+
+pop-gtk-theme (2.2.0.0) artful; urgency=medium
+
+  * New upstream sync.
+  * Emoji picker support
+
+ -- Ian Santopietro <ian@system76.com>  Wed, 11 Oct 2017 11:43:35 -0600
+
+pop-gtk-theme (2.1.2.0) artful; urgency=medium
+
+  * Internal code cosmetics
+  * Chrome/ium fixes
+  * Removal of outdated styling
+  * Support for headerbar.titlebar
+  * Firefox button text contrast improvements
+  * Fixes for Eye of GNOME
+  * Fixed bug with GNOME Shell builds
+  * Changed App-Wall tile :hover background color
+
+ -- Ian Santopietro <ian@system76.com>  Tue, 10 Oct 2017 11:12:25 -0600
+
 pop-gtk-theme (2.1.1.10) artful; urgency=medium
 
   * Bump version
